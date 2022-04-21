@@ -10,7 +10,7 @@
                         <a class="btn btn-primary btn-sm" href="{{ route('create') }}">Add Warga</a>
                         <table class="table table-over">
                             <th>
-                            <td>Namaaaa</td>
+                            <td>Nama</td>
                             <td>Noa Nik</td>
                             <td>No KK</td>
                             <td>Jenis Kelamin</td>
