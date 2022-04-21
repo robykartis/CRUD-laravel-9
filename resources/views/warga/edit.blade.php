@@ -8,7 +8,7 @@
         <input class="form-control" type="text" name="nik" placeholder="Nik" value="{{ $warga->nik }}"><br><br>
         <input class="form-control" type="text" name="no_kk" placeholder="No KK" value="{{ $warga->no_kk }}"><br><br>
         <select name="jenis_kelamin" class="form-select">
-            <option value="">--Pilih Jenis Kelamin--</option>
+            <option value="">--Pilih Jenis Kelamin Anda--</option>
             <option value="L" @if ($warga->jenis_kelamin == 'L') selected @endif>Laki-Laki</option>
             <option value="P" @if ($warga->jenis_kelamin == 'P') selected @endif>Perempuan</option>
         </select><br><br>
