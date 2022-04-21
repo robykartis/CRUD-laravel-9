@@ -11,7 +11,7 @@
                         <table class="table table-over">
                             <th>
                             <td>Namaa</td>
-                            <td>No Nik</td>
+                            <td>Noa Nik</td>
                             <td>No KK</td>
                             <td>Jenis Kelamin</td>
                             <td>Alamat</td>
