@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\WargaController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,5 +30,13 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Auth::routes();
+
+// Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+// Route::group(['middleware' => ['auth']], function () {
+//     Route::resource('roles', RoleController::class);
+//     Route::resource('users', UserController::class);
+//     Route::resource('products', ProductController::class);
+// });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
